@@ -1,0 +1,105 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #7d4d7799;
+}
+
+h1 {
+text-align: center;
+margin-top: 30px;
+font-weight: 800;
+color: antiquewhite;
+}
+
+label {
+margin-right: 70px;
+margin-top: 20px;
+font-size: 20px;
+}
+input[type="radio"] {
+margin-left: 10px;
+display: inline;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.juga{
+    display: inline-block;
+    gap: 3px;
+    margin-left: 350px;
+}
+
+#you{
+    color: rgb(43, 59, 43);
+    border: 2px solid black;
+    font-weight: 800;
+    background-color: whitesmoke;
+}
+#comp{
+    color: #323233;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    font-weight: 700;
+}
+
+#result{
+    display: inline-flexbox;
+    border: 2px solid black;
+    border-radius: 50px;    
+    background-color: #f2deefd3;
+}
+
+button[type="submit"] {
+margin-top: 20px;
+background-color: #008CBA;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+background-color: #006B9F;
+}
+p {
+text-align: center;
+margin-top: 20px;
+font-size: 24px;
+font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+li {
+  background: #8784ec;
+  color: white;
+  border-radius: 15px;
+  width: 300px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+#tuResultado{
+    font-weight: bolder;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#tabla{
+    border-radius: 10px;
+    padding: 5px;
+}
