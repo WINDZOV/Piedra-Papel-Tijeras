@@ -42,7 +42,7 @@ $result = 'win';
 } else {
 $result = 'lose';
 }
-// Сохраняем статистику в базу данных
+
 DB::table('game_statistics')->insert([
 'player_name' => 'Player 1',
 'computer_choice' => $computerChoice,
@@ -51,7 +51,7 @@ DB::table('game_statistics')->insert([
 'created_at' => now(),
 'updated_at' => now(),
 ]);
-// Возвращаем результат игры в представление
+
 return view('game', ['result' => $result, 'player_choice'
 => $playerChoice, 'computer_choice' => $computerChoice,
 'last_games' => $last_games]);
