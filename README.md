@@ -48,3 +48,19 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
    ```bash
         php artisan migrate
 
+7. Inicia el servidor:
+  
+```bash
+    
+    php artisan serve
+
+8.Accede en tu navegador a:
+
+     http://127.0.0.1:8000
+
+
+
+🤝 **Agradecimientos**
+
+**Gracias al equipo de Laravel y a la comunidad de desarrolladores por los tutoriales, documentación y soporte. Este es uno de mis primeros pasos en el mundo de los frameworks PHP.
+**
