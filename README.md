@@ -22,49 +22,29 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
 
 1. Clona este repositorio:
    
-       ```bash
+    ```bash
    
        git clone https://github.com/WINDZOV/Piedra-Papel-Tijeras.git
    
        cd Piedra-Papel-Tijeras
+    
 3. Instala las dependencias:
 
-       ```bash
-    
+    ```bash    
        composer install
     
 5. Copia el archivo .env:
-   
-       ```bash
+    ```bash
     
         cp .env.example .env
     
 6. Configura tu base de datos en el archivo .env.
 
 7. Genera la clave de la aplicación:
-
-       ```bash
+   ```bash
         php artisan key:generate
-    
-6.Ejecuta las migraciones para crear la tabla:
-  
-    ```bash
-    
-    php artisan migrate   
-    
-7.Inicia el servidor:
-  
-    ```bash
-    
-    php artisan serve
+       
+6.Ejecuta las migraciones para crear la tabla:  
+   ```bash
+        php artisan migrate
 
-8.Accede en tu navegador a:
-
-     http://127.0.0.1:8000
-
-     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-🤝 **Agradecimientos**
-
-**Gracias al equipo de Laravel y a la comunidad de desarrolladores por los tutoriales, documentación y soporte. Este es uno de mis primeros pasos en el mundo de los frameworks PHP.
-**
