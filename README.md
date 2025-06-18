@@ -22,6 +22,7 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
 
 1. Clona este repositorio:
        ```bash
+   
        git clone https://github.com/WINDZOV/Piedra-Papel-Tijeras.git
    
        cd Piedra-Papel-Tijeras
@@ -41,10 +42,12 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
     
 6.Ejecuta las migraciones para crear la tabla:
     ```bash
+    
     php artisan migrate   
     
 7.Inicia el servidor:
     ```bash
+    
     php artisan serve
 
 8.Accede en tu navegador a:
