@@ -21,31 +21,39 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
 ## 📦 Instalación y uso
 
 1. Clona este repositorio:
+   
        ```bash
    
        git clone https://github.com/WINDZOV/Piedra-Papel-Tijeras.git
    
        cd Piedra-Papel-Tijeras
 3. Instala las dependencias:
-    ```bash
-    composer install
-    
-4. Copia el archivo .env:
-    ```bash
-    cp .env.example .env
-    
-5. Configura tu base de datos en el archivo .env.
 
-6. Genera la clave de la aplicación:
-    ```bash
-    php artisan key:generate
+       ```bash
+    
+       composer install
+    
+5. Copia el archivo .env:
+   
+       ```bash
+    
+        cp .env.example .env
+    
+6. Configura tu base de datos en el archivo .env.
+
+7. Genera la clave de la aplicación:
+
+       ```bash
+        php artisan key:generate
     
 6.Ejecuta las migraciones para crear la tabla:
+  
     ```bash
     
     php artisan migrate   
     
 7.Inicia el servidor:
+  
     ```bash
     
     php artisan serve
