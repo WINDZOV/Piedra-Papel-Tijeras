@@ -36,23 +36,20 @@ Este es un proyecto básico del clásico juego "Piedra, Papel o Tijeras" desarro
 5. Copia el archivo .env:
     ```bash
     
-        cp .env.example .env
+     cp .env.example .env
     
 6. Configura tu base de datos en el archivo .env.
 
 7. Genera la clave de la aplicación:
    ```bash
-        php artisan key:generate
+    php artisan key:generate
        
-6.Ejecuta las migraciones para crear la tabla:  
+6.Ejecuta las migraciones para crear la tabla y inicia el servidor:  
    ```bash
-        php artisan migrate
-
-7. Inicia el servidor:
-  
-```bash
-    
+    php artisan migrate
     php artisan serve
+
+
 
 8.Accede en tu navegador a:
 
